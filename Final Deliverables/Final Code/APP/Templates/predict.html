@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+
+<style>
+    body{
+     background-color: #BAD1C2;
+    }
+
+    #rectangle{
+     width:500px;
+     height:120px;
+     background-color: #4FA095;
+     border-radius: 25px;
+     position:absolute;
+     top:25%;
+     left:50%;
+     transform:translate(-50%,50%);
+    }
+
+    #ans{
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 3% 5%;
+  padding-top: 8%;
+  color: #000;
+    }
+
+</style>
+<body>
+    <div id="rectangle">
+        <h1 id="ans">Predicted Number is {{num}}</h1>
+    </div>
+</body>
+</html>
